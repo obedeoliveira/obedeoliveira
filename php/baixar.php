@@ -1,5 +1,5 @@
 <?php 
-$aquivoNome = '../arquivos/curriculo.pdf'; // nome do arquivo que será enviado p/ download
+$aquivoNome = '../php/baixar.php'; // nome do arquivo que será enviado p/ download
 
 // Verifica se o arquivo não existe
 if (!file_exists($aquivoNome)) {
