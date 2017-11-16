@@ -26,7 +26,7 @@ a,a:hover {
 }
 img {max-width: 100%;}
 /* --- Menu --- */
-.isFixed {
+/*.isFixed {
 	left:0px;
 	width:100%;
 }
@@ -37,12 +37,12 @@ img {max-width: 100%;}
 	left:0px;
 	right:0px;
 	bottom:0;
-}
+}*/
 
-.navArea {
+/*.navArea {*/
 	/*float:right;*/
-}
-.navwrapper .container {
+/*}*/
+/*.navwrapper .container {
 	padding:0;
 	width:auto;
 }
@@ -63,9 +63,9 @@ img {max-width: 100%;}
 }
 .navbar-toggle {
 	margin-top: 14px;
-}
+}*/
 /* Special class on .container surrounding .navbar,used for positioning it into place. */
-.navbar-wrapper {
+/*.navbar-wrapper {
 	margin-top:0px;
 	height:80px;
 	position:relative;
@@ -121,15 +121,15 @@ img {max-width: 100%;}
 }
 .isFixed .navbar.navbar-inverse.navbar-static-top a {
 	color:#fff;
-}
-.stuckMenu {
+}*/
+/*.stuckMenu {
 	-o-transition:all .5s;
 	-ms-transition:all .5s;
 	-moz-transition:all .5s;
 	-webkit-transition:all .5s;
 	transition:all .5s;
 		background:#111;
-}
+}*/
 .isFixed {
 	background:#333;
 		-o-transition:all .5s;
