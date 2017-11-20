@@ -653,21 +653,21 @@ span.nav-close:before {
 	line-height:14px;
 	font-size:12px;
 }*/
-/*.info-keys:before {
+.info-keys:before {
 	left:10px;
 	content:"\e603";
 }
 .info-keys:after {
 	right:10px;
 	content: "\e604";
-}*/
+}
 /* Example media queries (reduce number of columns and change slideshow layout) */
 @media screen and (max-width:60em) {
 	/* responsive columns;see "Element sizing" on http://masonry.desandro.com/options.html */
-	/*.grid li {
+	.grid li {
 			width:33.3%;
-	}*/
-/*	.slideshow li {
+	}
+	.slideshow li {
 			width:100%;
 			height:100%;
 			top:0;
@@ -682,8 +682,8 @@ span.nav-close:before {
 	.slideshow nav span,.slideshow nav span.nav-close {
 			font-size:1.8em;
 			padding:0.3em;
-	}*/
-/*	.info-keys {
+	}
+	.info-keys {
 			display:none;
 	}
 }
@@ -696,7 +696,7 @@ span.nav-close:before {
 	.grid li {
 			width: 100%;
 	}
-}*/
+}
 /* --- Educations --- */
 /*.hi-icon-effect {
 	padding-bottom:30px;
