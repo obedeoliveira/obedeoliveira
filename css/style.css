@@ -4,11 +4,11 @@
 */
 /* --- General --- */
 body {
-	font-family:'Montserrat',sans-serif;
-	font-size:16px;
-	line-height:1.7;
-	color:#777;
-	font-weight:400;
+	/*font-family:'Montserrat',sans-serif;
+	font-size:16px;*/
+	/*line-height:1.7;*/
+	/*color:#777;*/
+	/*font-weight:400;*/
 	overflow-x:hidden;
 }
 .playball {
@@ -27,7 +27,7 @@ a,a:hover {
 img {max-width: 100%;}
 .obede {
 	height:600px;
-	padding-top:170px;
+	padding-top:10%;
 }
 /* --- Menu --- */
 /*.isFixed {
