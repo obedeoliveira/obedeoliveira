@@ -4,18 +4,23 @@
 */
 /* --- General --- */
 body {
-	/*font-family:'Montserrat',sans-serif;
-	font-size:16px;*/
-	/*line-height:1.7;*/
-	/*color:#777;*/
-	/*font-weight:400;*/
+	font-family:'Montserrat',sans-serif;
+	font-size:16px;
+	line-height:1.7;
+	color:#777;
+	font-weight:400;
 	overflow-x:hidden;
 }
-/*.playball {
+.playball {
 	font-family:'Playball',cursive;
-}*/
-h1,h2,h3,h4,h5,h6 {
+}
+h1,h3,h4,h5,h6 {
 	color:#333;
+	line-height:1.4;
+	font-weight:600;
+}
+h2 {
+	color:#007EFF ;
 	line-height:1.4;
 	font-weight:600;
 }
@@ -150,28 +155,28 @@ img {max-width: 100%;}
 	.navbar.navbar-inverse.navbar-static-top a {padding: 15px 16px;line-height: 15px;font-size: 13px;}
 }
 /* --- Intro --- */
-/*header {
+header {
 	padding-bottom:50px;
-}*/
-/*.intro {
+}
+.intro {
 	font-family:'Playball',cursive;
 	font-size:50px;
 	line-height:1.0;
 	font-weight: 900;
 }
 
-.intro a {
+/*.intro a {
 	color:#000;
 }*/
 
 /* --- Parallax --- */
 .parallax {
 	text-align:center;
-	/*background-position:center center;*/
+	background-position:center center;
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-attachment:fixed !important;
-	/*overflow:hidden;*/
+	overflow:hidden;
 }
 /*.parallax-pattern-overlay {
 	background-image:url(../img/pattern.png);
